@@ -36,7 +36,7 @@ This project is an event-driven security tool that automatically scans infrastru
 ## How to Run
 1.  Clone the repo:
     ```bash
-    git clone [https://github.com/Chinkhuselts/aws-serverless-security-auditor.git](https://github.com/Chinkhuselts/aws-serverless-security-auditor.git)
+    git clone https://github.com/Chinkhuselts/aws-serverless-security-auditor.git
     ```
 2.  Initialize Terraform:
     ```bash
