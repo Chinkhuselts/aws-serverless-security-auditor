@@ -27,7 +27,7 @@ This project is an event-driven security tool that automatically scans infrastru
 
 ### 2. Vulnerability Simulation
 *Uploaded a 'bad_conf.json' file to trigger the security rule.*
-![Bad Upload](URL_TO_YOUR_UPLOAD_IMAGE_HERE)
+![Bad Upload](images/bad-conf.png)
 
 ### 3. Real-Time Detection
 *The system successfully detected the risk and sent an alert in <2 seconds.*
