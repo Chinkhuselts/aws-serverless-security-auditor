@@ -31,7 +31,7 @@ This project is an event-driven security tool that automatically scans infrastru
 
 ### 3. Real-Time Detection
 *The system successfully detected the risk and sent an alert in <2 seconds.*
-![Email Alert](URL_TO_YOUR_EMAIL_IMAGE_HERE)
+![Email Alert](images/Vuln-report.png)
 
 ## How to Run
 1.  Clone the repo:
