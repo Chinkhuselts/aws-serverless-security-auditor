@@ -1,11 +1,11 @@
-# Automated Cloud Security Auditor 🛡️
+# Automated Cloud Security Auditor
 
 ## Project Overview
 This project is an event-driven security tool that automatically scans infrastructure configuration files for vulnerabilities. It uses **Infrastructure as Code (Terraform)** to deploy a serverless pipeline on AWS.
 
 **Goal:** Eliminate manual security reviews by automating policy checks (e.g., detecting public S3 buckets) in real-time.
 
-## 🏗️ Architecture
+## Architecture
 **Flow:** `User Upload` -> `S3 Event` -> `Lambda (Python)` -> `SNS Alert` -> `Admin Email`
 
 1.  **Trigger:** A user uploads a configuration file (JSON) to an S3 bucket.
@@ -23,7 +23,7 @@ This project is an event-driven security tool that automatically scans infrastru
 
 ### 1. Infrastructure Deployment (Terraform)
 *Infrastructure deployed using Terraform to ensure consistency and speed.*
-![Terraform Apply](URL_TO_YOUR_TERRAFORM_IMAGE_HERE)
+![Terraform Apply](images/3.png)
 
 ### 2. Vulnerability Simulation
 *Uploaded a 'bad_conf.json' file to trigger the security rule.*
@@ -33,7 +33,7 @@ This project is an event-driven security tool that automatically scans infrastru
 *The system successfully detected the risk and sent an alert in <2 seconds.*
 ![Email Alert](URL_TO_YOUR_EMAIL_IMAGE_HERE)
 
-## 🚀 How to Run
+## How to Run
 1.  Clone the repo:
     ```bash
     git clone [https://github.com/YOUR_USERNAME/aws-serverless-security-auditor.git](https://github.com/YOUR_USERNAME/aws-serverless-security-auditor.git)
